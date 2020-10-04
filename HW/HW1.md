@@ -1,6 +1,7 @@
 # 第一章 前六題
 ## Not
 * code
+
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
@@ -24,6 +25,7 @@ CHIP Not {
 
 ## And
 * code
+
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
@@ -49,6 +51,7 @@ CHIP And {
 
 ## Or
 * code
+
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
@@ -75,6 +78,7 @@ CHIP Or {
 
 ## Xor
 * code
+
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
@@ -101,6 +105,7 @@ CHIP Xor {
 
 ## Mux
 * code
+
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
@@ -124,10 +129,11 @@ CHIP Mux {
     Nand(a=X,b=Y,out=out);
 }
 * picture
-![Mux]()
+![Mux](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201004_231618_4.jpg)
 
 ## DMux
 * code
+
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
@@ -150,4 +156,4 @@ CHIP DMux {
     And(a=in,b=sel,out=b);
 }
 * picture
-![DMux]()
+![DMux](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201004_231624_5.jpg)
