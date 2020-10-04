@@ -8,9 +8,9 @@
     // File name: projects/01/Not.hdl
 
     /**
-     * Not gate:
-     * out = not in
-     */
+    * Not gate:
+    * out = not in
+    **/
 
     CHIP Not {
         IN in;
@@ -34,9 +34,9 @@
 
     /**
     * And gate: 
-     * out = 1 if (a == 1 and b == 1)
-     *       0 otherwise
-     */
+    * out = 1 if (a == 1 and b == 1)
+    *       0 otherwise
+    **/
 
     CHIP And {
         IN a, b;
@@ -63,7 +63,7 @@
     * Or gate:
     * out = 1 if (a == 1 or b == 1)
     *       0 otherwise
-    */
+    **/
 
     CHIP Or {
         IN a, b;
@@ -88,9 +88,9 @@
     // File name: projects/01/Xor.hdl
 
     /**
-     * Exclusive-or gate:
+    * Exclusive-or gate:
     * out = not (a == b)
-    */
+    **/
 
     CHIP Xor {
         IN a, b;
@@ -116,10 +116,10 @@
     // File name: projects/01/Mux.hdl
 
     /** 
-     * Multiplexor:
+    * Multiplexor:
     * out = a if sel == 0
     *       b otherwise
-    */
+    **/
 
     CHIP Mux {
         IN a, b, sel;
@@ -148,7 +148,7 @@
     * Demultiplexor:
     * {a, b} = {in, 0} if sel == 0
     *          {0, in} if sel == 1
-    */
+    **/
 
     CHIP DMux {
         IN in, sel;
@@ -160,6 +160,6 @@
         And(a=in,b=ns,out=a);
         And(a=in,b=sel,out=b);
     }
-    
+
 * picture
 ![DMux](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201004_231624_5.jpg)
