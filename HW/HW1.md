@@ -2,7 +2,7 @@
 ## Not
 * code
 
-    // This file is part of www.nand2tetris.org
+    `// This file is part of www.nand2tetris.org
     // and the book "The Elements of Computing Systems"
     // by Nisan and Schocken, MIT Press.
     // File name: projects/01/Not.hdl
@@ -19,7 +19,7 @@
         PARTS:
         // Put your code here:
         Nand(a=in, b=in, out=out);
-    }
+    }`
 
 * picture
 ![Not](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201004_231504_0.jpg)
@@ -27,7 +27,7 @@
 ## And
 * code
 
-    // This file is part of www.nand2tetris.org
+    `// This file is part of www.nand2tetris.org
     // and the book "The Elements of Computing Systems"
     // by Nisan and Schocken, MIT Press.
     // File name: projects/01/And.hdl
@@ -46,7 +46,7 @@
         // Put your code here:
         Nand(a=a,b=b,out=AnandB);
         Not(in=AnandB,out=out);
-    }
+    }`
 
 * picture
 ![And](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201004_231509_1.jpg)
@@ -54,7 +54,7 @@
 ## Or
 * code
 
-    // This file is part of www.nand2tetris.org
+    `// This file is part of www.nand2tetris.org
     // and the book "The Elements of Computing Systems"
     // by Nisan and Schocken, MIT Press.
     // File name: projects/01/Or.hdl
@@ -74,7 +74,7 @@
         Not(in=a,out=na);
         Not(in=b,out=nb);
         Nand(a=na,b=nb,out=out);
-    }
+    }`
 
 * picture
 ![Or](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201004_231520_2.jpg)
@@ -82,7 +82,7 @@
 ## Xor
 * code
 
-    // This file is part of www.nand2tetris.org
+    `// This file is part of www.nand2tetris.org
     // and the book "The Elements of Computing Systems"
     // by Nisan and Schocken, MIT Press.
     // File name: projects/01/Xor.hdl
@@ -102,7 +102,7 @@
         Nand(a=a,b=AnandB,out=X);
         Nand(a=b,b=AnandB,out=Y);
         Nand(a=X,b=Y,out=out);
-    }
+    }`
 
 * picture
 ![Xor](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201004_231535_3.jpg)
@@ -110,7 +110,7 @@
 ## Mux
 * code
 
-    // This file is part of www.nand2tetris.org
+    `// This file is part of www.nand2tetris.org
     // and the book "The Elements of Computing Systems"
     // by Nisan and Schocken, MIT Press.
     // File name: projects/01/Mux.hdl
@@ -131,7 +131,7 @@
         Nand(a=a,b=ns,out=X);
         Nand(a=sel,b=b,out=Y);
         Nand(a=X,b=Y,out=out);
-    }
+    }`
 
 * picture
 ![Mux](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201004_231618_4.jpg)
@@ -139,7 +139,7 @@
 ## DMux
 * code
 
-    // This file is part of www.nand2tetris.org
+    `// This file is part of www.nand2tetris.org
     // and the book "The Elements of Computing Systems"
     // by Nisan and Schocken, MIT Press.
     // File name: projects/01/DMux.hdl
@@ -159,7 +159,7 @@
         Not(in=sel,out=ns);
         And(a=in,b=ns,out=a);
         And(a=in,b=sel,out=b);
-    }
+    }`
 
 * picture
 ![DMux](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201004_231624_5.jpg)
