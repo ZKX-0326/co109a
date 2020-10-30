@@ -294,9 +294,9 @@ CHIP DMux8Way {
 }
 ```
 * picture
-![picture1](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201004_231624_5.jpg)
-![picture2](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201004_231624_5.jpg)
+![picture1](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201030_143438.jpg)
+![picture2](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201030_143458.jpg)
 
 ## 笛摩根定律證明
 * picture
-![DeMorgon](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201004_231624_5.jpg)
+![DeMorgon](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201030_143548.jpg)
