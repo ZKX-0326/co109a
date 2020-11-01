@@ -42,9 +42,9 @@ CHIP FullAdder {
 
     PARTS:
     // Put you code here:
-    HalfAdder(a=a,b=b,sum=sab,carry=x);
-    HalfAdder(a=sab,b=c,sum=sum,carry=y);
-    Or(a=x,b=y,out=carry);
+    HalfAdder(a=a,b=b,sum=sab,carry=cab);
+    HalfAdder(a=sab,b=c,sum=sum,carry=cabc);
+    Or(a=cab,b=cabc,out=carry);
 }
 ```
 
@@ -105,15 +105,10 @@ CHIP Inc16 {
 
     PARTS:
    // Put you code here:
-   Add16(a=in,b[0]=true,out=out);
+   Add16(a=in,b[0]=true,b[1..15]=false,out=out);
 }
 ```
 
 
 * picture
 ![picture1](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201030_143438.jpg)
-![picture2](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201030_143458.jpg)
-
-## 笛摩根定律證明
-* picture
-![DeMorgon](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/IMG_20201030_143548.jpg)
