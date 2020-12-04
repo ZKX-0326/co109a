@@ -146,5 +146,5 @@ CHIP ALU {
 }
 ```
 * picture
-![picture](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/LINE_P2020111_215554.jpg)
-![picture](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/LINE_P2020111_215554.jpg)
+![picture](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/1607068577837.jpg)
+![picture](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/1607068585258.jpg)
