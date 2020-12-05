@@ -63,4 +63,4 @@ CHIP Register {
 }
 ```
 * picture
-![picture](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/1607068577837.jpg)
+![picture](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/1607149176476.jpg)
