@@ -29,4 +29,4 @@ CHIP PC {
 }
 ```
 * picture
-![picture]()
+![picture](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/1608098558484.jpg)
