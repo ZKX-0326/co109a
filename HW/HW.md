@@ -22,4 +22,4 @@ int main(){
 }
 ```
 * picture
-![]()
+![picture](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/%E6%9C%AA%E5%91%BD%E5%90%8D.png)
