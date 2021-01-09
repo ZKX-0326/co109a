@@ -1,3 +1,6 @@
+# mult
+* code
+```
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
@@ -40,3 +43,6 @@ A=A-D
 M=-1
 @18
 0;JMP
+```
+* picture
+![picture](https://github.com/ZKX-0326/co109a/blob/master/HW/picture/%E6%9C%AA%E5%91%BD%E5%90%8D1.png)
