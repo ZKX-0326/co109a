@@ -1,4 +1,4 @@
-# mult
+# Mult
 * code
 ```
 // This file is part of www.nand2tetris.org
